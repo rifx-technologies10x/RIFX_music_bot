@@ -705,7 +705,7 @@ def handle_download(call):
             f"🎧 <b>Format:</b> {fmt_label}\n"
             f"🛠 <b>Quality:</b> {quality_label}\n"
             f"🙋‍♂️ <b>Requested by:</b> {user_mention}\n"
-            "🎵 <b>Download by:</b> XVIBERZ"
+            "🎵 <b>Download by:</b> RIFX"
             "</blockquote>"
         )
 
@@ -837,7 +837,7 @@ def handle_download(call):
 
 def main():
     print("=" * 60)
-    print("🚀 XZ Music Bot is running!")
+    print("🚀 RIFX Music Bot is running!")
     print("🤖 Connected to Telegram successfully...")
     print("=" * 60)
     bot.infinity_polling(timeout=60, long_polling_timeout=25, restart_on_change=False)

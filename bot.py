@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # ============================================================
-# XZ Music & Video Downloader Bot
-# Developed by: https://t.me/XVIBERZ
+# RIFX Music & Video Downloader Bot
+# Developed by: https://t.me/rifx_technologies
 # ============================================================
 
 import os
@@ -38,7 +38,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("XZMusicBot")
+logger = logging.getLogger("RIFXMusicBot")
 
 if not BOT_TOKEN:
     logger.error("BOT_TOKEN is missing! Please configure .env.")
@@ -294,7 +294,7 @@ def get_bold_start_text(user) -> str:
         "🔍 <b>Search YouTube</b>"
         "</blockquote>\n\n"
         "💡 <i>Use a title, artist, or direct YouTube link.</i>\n"
-        "⚡ <i>Powered by XVIBERZ</i>"
+        "⚡ <i>Powered by @rifx_technologies</i>"
     )
 
 

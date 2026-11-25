@@ -294,7 +294,7 @@ def get_bold_start_text(user) -> str:
         "🔍 <b>Search YouTube</b>"
         "</blockquote>\n\n"
         "💡 <i>Use a title, artist, or direct YouTube link.</i>\n"
-        "⚡ <i>Powered by @rifx_technologies</i>"
+        "⚡ <i>Powered by rifx_technologies</i>"
     )
 
 
